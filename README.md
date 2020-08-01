@@ -1,5 +1,5 @@
 # Websites
-Recent websites I built
+Recent websites i've built:
 - Graybill Machines
 - nickcanarelli.com
 - ProTreads
