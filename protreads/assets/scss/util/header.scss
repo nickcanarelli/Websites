@@ -1,0 +1,44 @@
+header {
+    padding: 25px 0px;
+
+    .container {
+
+        .row {
+            justify-content: space-between;
+            align-items: center;
+
+            .brand {
+    
+                .logo {
+                    width: 90px;
+                }
+            }
+
+            .menu {
+                display: flex;
+                align-items: flex-end;
+                flex-direction: column;
+
+                ul.social-list {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    margin-top: 15px;
+
+                    li {
+                        display: inline-block;
+                        margin-left: 25px;
+
+                        .social {
+                            width: 30px;
+                        }
+                    }
+                }
+                .pt-inverted {
+                    font-size: 20px;
+                    padding: 10px 35px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,171 @@
+.graybill-faq {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    position: relative;
+
+    @media (max-width: 570px) {
+        margin-top: 70px;
+    }
+
+    .tr-h-bdr {
+        position: absolute;
+        content: "";
+        top: -30px;
+        right: -40px;
+        width: 200px;
+        height: 1px;
+        background-color: #CCCCCC;
+
+        @media (max-width: 1170px) {
+            display: none;
+        }
+    }
+    .tr-v-bdr {
+        position: absolute;
+        content: "";
+        top: -50px;
+        right: -30px;
+        width: 1px;
+        height: 200px;
+        background-color: #CCCCCC;
+
+        @media (max-width: 1170px) {
+            display: none;
+        }
+    }
+    .graybill-faq__item {
+        background-color: #FFFFFF;	
+        box-shadow: 0 1px 5px 0 rgba(67,68,73,0.2);
+        margin-bottom: 40px;
+        padding: 20px;
+
+        .accordion-title {
+            cursor: pointer;
+            margin: 0;
+            text-decoration: none !important;
+            color: #2B2C31;	
+            font-family: poynter-gothic-text, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 18px;	
+            line-height: 22px;
+            transition: .4s;
+
+            @media (max-width: 570px) {
+                line-height: 27px;
+            }
+        
+            &:before {
+                content: url('/wp-content/themes/yscores/assets/img/faq/icon-plus.svg');
+                float: right;
+                left: 0px;
+                font-size: 18px;
+                filter: invert(58%) sepia(4%) saturate(13%) hue-rotate(315deg) brightness(93%) contrast(80%);
+                width: 20px;
+                height: 20px;
+                top: 0;
+                transition: .4s;
+            }
+        }
+        &:hover {
+            .accordion-title {
+                color: #FF8E53;
+
+                &:before {
+                    filter: invert(71%) sepia(82%) saturate(350%) hue-rotate(324deg) brightness(135%) contrast(101%);
+                }
+            }
+        }
+        .accordion-content {
+            margin-top: 20px;
+            display: none;
+            color: #2B2C31;	
+            font-family: poynter-gothic-text, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 18px;	
+            line-height: 27px;
+
+            ol,
+            ul {
+                margin-left: 20px;
+            }
+
+            a {
+                color: #139DE2;
+                position: relative;
+                text-decoration: none;
+            
+                &:after {
+                    content: "";
+                    position: absolute;
+                    height: 1px;
+                    width: 0;
+                    left: 0;
+                    bottom: -1px;
+                    margin: 0 auto;
+                    background-color: #139DE2;
+                    transition: .4s;
+                }
+            
+                &:hover {
+                    color: #139DE2;
+            
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        &:last-child {
+            margin-bottom: 0px;
+        }
+        &.is-active {
+
+            .accordion-title {
+
+                &:before {
+                    content: "";
+                    background-image: url('/wp-content/themes/yscores/assets/img/faq/icon-minus.svg');
+                    color: #FF8E53;
+                    filter: invert(71%) sepia(82%) saturate(350%) hue-rotate(324deg) brightness(135%) contrast(101%);
+                    background-size: 20px;
+                    background-repeat: no-repeat;
+                    background-position-y: center;
+                    transition: none;
+                }
+            }  
+        }
+    }
+    .bl-h-bdr {
+        position: absolute;
+        content: "";
+        bottom: -30px;
+        left: -50px;
+        width: 200px;
+        height: 1px;
+        background-color: #CCCCCC;
+
+        @media (max-width: 1170px) {
+            display: none;
+        }
+    }
+    .bl-v-bdr {
+        position: absolute;
+        content: "";
+        bottom: -40px;
+        left: -30px;
+        width: 1px;
+        height: 200px;
+        background-color: #CCCCCC;
+
+        @media (max-width: 1170px) {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="7px" viewBox="0 0 12 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>CE8B5F88-0BEC-4872-BC7E-DF3B5822148C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M309,2546.58579 L313.292893,2542.29289 C313.683418,2541.90237 314.316582,2541.90237 314.707107,2542.29289 C315.097631,2542.68342 315.097631,2543.31658 314.707107,2543.70711 L309.707107,2548.70711 C309.316582,2549.09763 308.683418,2549.09763 308.292893,2548.70711 L303.292893,2543.70711 C302.902369,2543.31658 302.902369,2542.68342 303.292893,2542.29289 C303.683418,2541.90237 304.316582,2541.90237 304.707107,2542.29289 L309,2546.58579 Z" id="path-1"></path>
+    </defs>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Guidle---Light" transform="translate(-303.000000, -2542.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon-chevron-down" fill="#FF8E53" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

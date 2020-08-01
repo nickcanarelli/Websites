@@ -1,0 +1,17 @@
+// Import Reset
+@import 'util/reset';
+
+@import 'util/fonts';
+
+// Import Utils
+@import 'util/header';
+@import 'util/footer';
+@import 'util/slick';
+@import 'util/buttons';
+
+// Import Pages
+@import 'pages/home';
+@import 'pages/contact';
+
+// Import Mobile Styles
+@import 'util/mobile';

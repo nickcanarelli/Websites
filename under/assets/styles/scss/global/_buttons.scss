@@ -1,0 +1,36 @@
+.btn {
+    cursor: pointer;
+    padding: 13px 60px;
+    text-decoration: none;
+    transition: all .5s ease;
+    display: inline-block;
+    border-radius: $btn-radius;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+
+    &.btn-block {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    &.orange {
+        background-color: #FF6932;
+        color: white;
+    }
+    &.orange-inverted {
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        line-height: 22px;
+        border-width: $btn-border-width;
+        border-style: solid;
+        border-color: #FF5719;
+        background-color: transparent;
+        color: #FF5719;
+
+        &:hover {
+            background-color: #FF5719;
+            color: white;
+        }
+    }
+    
+}

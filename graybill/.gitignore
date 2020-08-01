@@ -1,0 +1,95 @@
+# OS X
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Sublime Text
+*.sublime-*
+sftp-config.json
+
+# Visual Studio Code
+.vscode/
+
+# PHPStorm/WebStorm/other JetBrains IDEA-based Editors
+.idea/
+
+# Netbeans
+.nbproject/
+nbproject/
+
+# Atom
+.ftpconfig
+
+# SASS
+.sass-cache
+prepos.cfg
+config.codekit
+.codekit-cache/
+compass_app_log.txt
+assets/css/theme/
+
+# Node/Gulp/Bower
+assets/bower_components/
+node_modules/
+
+# Backups
+*.bak
+*.old
+*~
+
+# Log Files
+*.log
+
+# Temporary Files/Folders
+tmp
+.tmp
+*.tmp
+temp
+
+# Lock/Process Files
+*.lock
+!Gemfile.lock
+*.pid
+*.flag
+
+# Core Dumps
+*.stackdump
+
+# Archives
+*.tar
+*.tar.*
+*.tgz
+*.tbz
+*.7z
+*.xz
+*.gz
+*.gzip
+*.bz2
+*.lzma
+*.zip
+*.rar
+
+# Selective Media Assets
+*.psd
+*.psb
+*.ai
+*.avi
+*.flv
+*.mov
+*.ogg
+*.webm
+*.mp3
+*.mp4
+*.mpeg
+*.dwg
+
+prepros.cfg
+
+!.babelrc
+!.csslintrc
+!.env
+!.eslintrc
+!.jshintrc

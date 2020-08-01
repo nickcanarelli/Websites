@@ -1,0 +1,80 @@
+/* Main BG */
+html, body {
+    background: #467193;
+}
+
+/* Logo */
+.login h1 a {
+	width: 180px;
+	height: 90px;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+/* Login Box BG */
+.login form {
+	background: #f5f5f5;   
+}
+/* Plain Text Links */
+.login #backtoblog a, .login #nav a, .login #backtoblog a:visited, .login #nav a:visited {
+	color: #FFF;
+	text-decoration: none;
+	position: relative;
+	
+}
+.login #backtoblog a:after, .login #nav a:after {
+	width: 0;
+	height: 1px;
+	background: #FFF;
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	-webkit-transition: width .25s ease-in-out;
+	   -moz-transition: width .25s ease-in-out;
+	    -ms-transition: width .25s ease-in-out;
+	     -o-transition: width .25s ease-in-out;
+	        transition: width .25s ease-in-out;
+}
+.login #backtoblog a:hover:after, .login #nav a:hover:after {
+	width: 100%;
+}
+.login #backtoblog a:hover, .login #nav a:hover {
+	color: #FFF;
+}
+
+/* Form Styling */
+input[type=text], input[type=search], input[type=radio], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=password], input[type=checkbox], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], select, textarea {
+	border-color: #999;
+}
+/* onFocus outlines */
+input[type=text]:focus, input[type=search]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=password]:focus, input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, select:focus, textarea:focus {
+	border-color: #999;
+	box-shadow: none;
+}
+
+/* Remember Me Checkbox */
+input[type=checkbox]:checked:before {
+	color: #F68800;
+}
+
+/* Submit Button */
+.login .button-primary {
+	background: #F68800;
+	border: 1px solid #F68800;
+	color: #FFF;
+	box-shadow: none;
+	text-shadow: none;
+	border-radius: 0;
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+}
+.login .button-primary:hover {
+	background: #FFF;
+	border-color: #F68800;
+	color: #F68800;
+}

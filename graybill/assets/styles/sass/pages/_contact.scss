@@ -1,0 +1,365 @@
+#contact-body {
+    width: auto;
+    padding: 0px 15px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    @media (max-width: 570px) {
+        margin-bottom: 0;
+    }
+
+    .contact-content__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .contact-content__form {
+            width: 100%;
+            max-width: 690px;
+            order: 1;
+            margin-right: 150px;
+
+            @media (max-width: 1180px) {
+                margin-right: 0;
+                max-width: 100%;
+            }
+
+            .validation_error {
+                display: none;
+            }
+
+            .gform_body {
+
+                ul {
+
+                    li {
+                        margin-top: 30px;
+                        padding-right: 0px;
+
+                        &:nth-child(-n+2) {
+                            margin-top: 0px;
+                        }
+                        &:nth-child(2) {
+                            @media (max-width: 640px) {
+                                margin-top: 30px;
+                            }
+                        }
+                        &.gf_left_half {
+                            padding-right: 15px;
+                        }
+                        &.gf_right_half {
+                            padding-left: 15px;
+                            padding-right: 0px;
+                        }
+                        @media (max-width: 640px) {
+                            &.gf_left_half {
+                                padding-right: 0px;
+                            }
+                            &.gf_right_half {
+                                padding-left: 0px;
+                                padding-right: 0px;
+                            }
+                        }
+                        &.gfield_error {
+                            background-color: transparent;
+                            margin-bottom: 0px !important;
+                            border-top: none;
+                            border-bottom: none;
+                            padding-bottom: 0px;
+                            padding-top: 0px;
+                            margin-right: 0px;
+                            max-width: 100% !important;
+
+                            .gfield_label {
+                                color: #FF0042;
+                                margin-top: 0px;
+
+                                .gfield_required {
+                                    color: #FF0042;
+                                }
+                            }
+                            &.gf_left_half {
+                                max-width: 100%;
+                            }
+                            &.gf_right_half {
+                                max-width: 100%;
+                            }
+                            .ginput_container {
+                                input, 
+                                textarea {
+                                    border: 1px solid #FF0042;
+                                }
+                            }
+                            .validation_message {
+                                display: none;
+                            }
+                        }
+                        .gfield_label {
+                            color: #2B2C31;	
+                            font-family: poynter-gothic-text, sans-serif;
+                            font-weight: 300;
+                            font-style: normal;
+                            font-size: 18px;	
+                            line-height: 27px;
+
+                            .gfield_required {
+                                color: #139DE2;
+                            }
+                        }
+                        .ginput_container {
+                            margin-top: 10px;
+
+                            input, 
+                            textarea {
+                                color: #434449;	
+                                font-family: poynter-gothic-text, sans-serif;
+                                font-weight: 300;
+                                font-style: normal;	
+                                font-size: 18px;	
+                                line-height: 22px;
+                                border: 1px solid #CCCCCC;	
+                                background-color: #FAFAFA;
+                                border-radius: 0px;
+                                padding: 15px;
+
+                                &:focus {
+                                    border: 1px solid #139DE2;
+                                    background: white;
+                                    outline: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .gform_footer {
+                padding: 0;
+                margin: 0;
+                margin-top: 40px;
+                display: inline-block;
+                width: auto;
+                position: relative;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #CCCCCC;
+                    top: -10px;
+                }
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #CCCCCC;
+                    bottom: -10px;
+                    left: 0;
+                }
+
+                input.button,
+                input[type=submit] {
+                    cursor: pointer;
+                    background-color: #139DE2;	
+                    color: white;
+                    box-shadow: 5px 10px 20px 0 rgba(43,44,49,0.3);
+                    border: none;
+                    padding: 20px 40px;
+                    font-family: poynter-gothic-text-condense, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-decoration: none;
+                    border-radius: 0;
+                    transition: color 0.15s ease-in-out, 
+                                background-color 0.15s ease-in-out, 
+                                border-color 0.15s ease-in-out, 
+                                box-shadow 0.15s ease-in-out;
+                    position: relative;
+                    margin: 0;
+
+                    &:hover {
+                        background-color: #054768;	
+                        color: white;
+                    }
+                }
+            }
+        }
+        .contact-content__sidebar {
+            width: 100%;
+            max-width: 276px;            
+            order: 2;
+            position: relative;
+
+            @media (max-width: 1179px) {
+                text-align: center;
+            }
+            
+            .body {
+                position: relative;
+                padding-top: 70px;
+                padding-bottom: 110px;
+                
+                .info {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-bottom: 40px;
+    
+                    li {
+                        color: #2B2C31;
+                        font-family: poynter-gothic-text, sans-serif;
+                        font-weight: 300;
+                        font-style: normal;
+                        font-size: 18px;	
+                        line-height: 27px;
+    
+                        a {
+                            font-weight: 500;
+                            color: #139DE2;	
+                            position: relative;
+                        }
+                    }
+                }
+                .contact {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-bottom: 40px;
+    
+                    li {
+                        color: #2B2C31;
+                        font-family: poynter-gothic-text, sans-serif;
+                        font-weight: 500;
+                        font-style: normal;
+                        font-size: 18px;	
+                        line-height: 35px;
+    
+                        a {
+                            color: #2B2C31;
+                            position: relative;
+                            text-decoration: none;
+    
+                            &:after {
+                                position: absolute;
+                                content: "";
+                                left: 0;
+                                right: 0;
+                                margin: 0 auto;
+                                width: 100%;
+                                height: 1px;
+                                bottom: 0px;
+                                background-color: #2B2C31;
+                                transition: .4s;
+                            }
+                            &:hover {
+                                &:after {
+                                    width: 50%;
+                                }
+                            }
+                            &.email {
+                                color: #139DE2;
+    
+                                &:after {
+                                    background-color: #139DE2;
+                                }
+                            }
+                        }
+                    }
+                }
+                .social {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+    
+                    li {
+                        display: inline-block;
+                        margin-left: 70px;
+    
+                        &:first-child {
+                            margin-left: 0px;
+                        }
+
+                        a {
+                            &:hover {
+
+                                img {
+                                    transition: .2s;
+                                    filter: invert(71%) sepia(82%) saturate(350%) hue-rotate(324deg) brightness(105%) contrast(101%);
+                                }
+                            }
+                        }
+                    }
+                }
+                .t-h-bdr {
+                    content: "";
+                    position: absolute;
+                    height: 1px;
+                    width: 294px;
+                    left: -70px;
+                    top: 10px;
+                    background-color: #CCCCCC;
+
+                    @media (max-width: 1140px) {
+                        display: none;
+                    }
+                }
+                .l-v-bdr {
+                    content: "";
+                    position: absolute;
+                    height: 430px;
+                    width: 1px;
+                    left: -30px;
+                    top: 0;
+                    background-color: #CCCCCC;
+
+                    @media (max-width: 1140px) {
+                        display: none;
+                    }
+                }
+                .r-vo-bdr {
+                    content: "";
+                    position: absolute;
+                    height: 350px;
+                    width: 1px;
+                    right: -40px;
+                    bottom: 0;
+                    background-color: #CCCCCC;
+
+                    @media (max-width: 1140px) {
+                        display: none;
+                    }
+                }
+                .r-vi-bdr {
+                    content: "";
+                    position: absolute;
+                    height: 350px;
+                    width: 1px;
+                    right: -30px;
+                    bottom: 70px;
+                    background-color: #CCCCCC;
+
+                    @media (max-width: 1140px) {
+                        display: none;
+                    }
+                }
+                .b-h-bdr {
+                    content: "";
+                    position: absolute;
+                    height: 1px;
+                    width: 400px;
+                    left: -60px;
+                    bottom: 55px;
+                    background-color: #CCCCCC;
+
+                    @media (max-width: 1140px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

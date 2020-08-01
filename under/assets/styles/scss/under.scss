@@ -1,0 +1,21 @@
+// Reset Styles
+@import 'global/reset';
+@import 'global/variables';
+
+// Fonts
+@import 'fonts/fonts';
+
+// Global
+@import 'global/grid';
+@import 'global/global';
+@import 'global/buttons';
+
+// Site Structure (Header + Footer)
+@import 'structure/header';
+@import 'structure/footer';
+
+// Pages 
+@import 'pages/frontpage';
+@import 'pages/interior';
+@import 'pages/create-account';
+@import 'pages/about';

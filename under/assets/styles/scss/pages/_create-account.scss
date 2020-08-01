@@ -1,0 +1,290 @@
+#create-account {
+    min-height: 1500px;
+    padding-top: 140px;
+    position: relative;
+    overflow: hidden;
+
+    @media (min-width: 992px) {
+        min-height: 810px;
+    }
+
+    .bg {
+        overflow: hidden;
+        width: 100%;
+        height: 540px;
+        background-repeat: repeat;
+        position: absolute;
+        right: 0;
+        border-radius: 80px 0 0 80px;
+        z-index: -1;
+        top: 950px;
+
+        &:after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background: linear-gradient(41.88deg, rgba(255,220,150,0) 0%, #FFAC6C 100%);
+        }
+
+        @media (min-width: 600px) {
+            top: 850px
+        }
+
+        @media (min-width: 768px) {
+            height: 804px;
+            -webkit-transform: perspective(75px) rotateX(0deg) rotateY(-1deg);
+                    transform: perspective(75px) rotateX(0deg) rotateY(-1deg);
+        }
+
+        @media (min-width: 992px) {
+            height: 617px;
+            width: 52%;
+            top: 160px;
+        }
+    }
+    .container {
+        .row {
+            .form {
+                .body {
+                    max-width: 490px;
+                    width: 100%;
+                    margin: 0 auto;
+
+                    @media (min-width: 992px) {
+                        margin-right: auto;
+                    }
+
+                    h1 {
+                        margin-bottom: 35px;
+                        color: $heading-color;
+                        font-family: "HK Grotesk";
+                        font-size: 44px;
+                        font-weight: bold;
+                        letter-spacing: 0.24px;
+                        line-height: 48px;
+                    }
+    
+                    .nf-form-cont {
+                        .nf-form-wrap {
+                            .nf-form-layout {
+                                .nf-before-form-content {
+                                    display: none;
+                                }
+                                .nf-form-content {
+                                    padding: 0;
+    
+                                    .nf-row {
+                                        .nf-cell {
+                                            .nf-field-container {
+                                                margin-bottom: 15px;
+    
+                                                .nf-field {
+                                                    .field-wrap {
+                                                        .nf-field-label {
+                                                            label {
+                                                                color: #293240;
+                                                                font-family: "Open Sans";
+                                                                font-size: 16px;
+                                                                font-weight: 600;
+                                                                letter-spacing: 0;
+                                                                line-height: 22px;
+                                                                margin-bottom: 10px;
+                                                            }
+                                                        }
+                                                        &.checkbox-wrap {
+                                                            label {
+                                                                color: #293240;
+                                                                font-family: "HK Grotesk";
+                                                                font-size: 16px;
+                                                                font-weight: 500;
+                                                                letter-spacing: 0;
+                                                                line-height: 24px;
+                                                                line-height: 20px;
+    
+                                                                &:before {
+                                                                    top: 1px;
+                                                                    left: -27px;
+                                                                    line-height: initial;
+                                                                    font-size: 16px;
+                                                                }
+                                                                &:after {
+                                                                    width: 18px;
+                                                                    height: 18px;
+                                                                    border-radius: 2px;
+                                                                }
+                                                                &.nf-checked-label {
+                                                                    &:before {
+                                                                        color: white;
+                                                                        top: 1px;
+                                                                        left: -27px;
+                                                                        line-height: initial;
+                                                                        font-size: 16px;
+                                                                    }
+                                                                    &:after {
+                                                                        background-color: #2574DB;
+                                                                        border: 1px solid #2574DB;
+                                                                    }
+                                                                }
+                                                            }
+                                                            .ninja-forms-req-symbol {
+                                                                display: none;
+                                                            }
+                                                        }
+                                                        &.nf-error {
+                                                            .nf-field-element {
+
+                                                                &:after {
+                                                                    background: #e80000;
+                                                                    color: #fff;
+                                                                    font-family: FontAwesome;
+                                                                    font-size: 20px;
+                                                                    content: "\f12a";
+                                                                    position: absolute;
+                                                                    top: 1px;
+                                                                    right: 0;
+                                                                    bottom: 1px;
+                                                                    height: calc(100% - 2px);
+                                                                    width: 50px;
+                                                                    line-height: 50px;
+                                                                    text-align: center;
+                                                                    transition: all .5s;
+                                                                    border-radius: 0px 8px 8px 0px;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .nf-field-element {
+                                                        input[type="email"],
+                                                        input[type="text"],
+                                                        input[type="tel"] {
+                                                            border: 1px solid #C3CAD9;
+                                                            border-radius: 8px;
+                                                            background-color: #FFFFFF;
+                                                            padding: 10px 15px;
+                                                            height: auto;
+                                                        }
+                                                        input[type="button"] {
+                                                            border-radius: 8px;
+                                                            padding: 15px 70px;
+                                                            background-color: #FF6932;
+                                                            color: #FFFFFF;
+                                                            font-family: "Open Sans";
+                                                            font-size: 18px;
+                                                            font-weight: bold;
+                                                            letter-spacing: 0;
+                                                            line-height: 24px;
+                                                            text-align: center;
+                                                            height: auto;
+                                                            cursor: pointer;
+                                                        }
+    
+                                                        h2 {
+                                                            margin-top: 20px;
+                                                            color: #293240;
+                                                            font-family: "HK Grotesk";
+                                                            font-size: 32px;
+                                                            font-weight: bold;
+                                                            letter-spacing: 0.2px;
+                                                            line-height: 48px;
+                                                        }
+                                                        .terms {
+                                                            width: 100%;
+                                                            max-width: 338px;
+                                                            color: #5A7184;
+                                                            font-family: "Open Sans";
+                                                            font-size: 16px;
+                                                            letter-spacing: 0;
+                                                            line-height: 28px;
+                                                        }
+                                                    }
+                                                }
+                                                .nf-after-field {
+                                                    .nf-error {
+                                                        .nf-error-msg {
+                                                            display: none;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .nf-after-form-content {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .content {
+                display: flex;
+                align-items: center;
+                margin-top: 70px;
+                min-height: 540px;
+
+                @media (min-width: 992px) {
+                    margin-top: 0;
+                }
+
+                .body {
+                    max-width: 490px;
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    @media (min-width: 768px) {
+                    }
+                    @media (min-width: 992px) {
+                    }
+                    @media (min-width: 1200px) {
+                        max-width: 480px;
+                        margin-right: 0;
+                    }
+    
+                    .title {
+                        color: #FFFFFF;
+                        font-family: "HK Grotesk";
+                        font-size: 36px;
+                        font-weight: bold;
+                        letter-spacing: 0.15px;
+                        line-height: 48px;
+                    }
+                    .points {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        margin-top: 50px;
+    
+                        li {
+                            color: #FFFFFF;
+                            font-family: "HK Grotesk";
+                            font-size: 18px;
+                            font-weight: bold;
+                            letter-spacing: 0;
+                            line-height: 28px;
+                            display: flex;
+                            margin-bottom: 25px;
+    
+                            .icon {
+                                flex: 0 0 36px;
+                                margin-right: 20px;
+                            }
+                            .text {
+                                flex: 1;
+                            }
+                        }
+                    }
+    
+                    @media (min-width: 992px) {
+                        margin-left: auto;
+                        max-width: 479px;
+                    }
+                }
+            }
+        }
+    }
+}

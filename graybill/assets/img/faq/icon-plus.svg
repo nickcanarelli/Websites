@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>62EE4579-B104-4CD5-AC28-1B5E1231CAAF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M243,2535 C243.788978,2535 244.428571,2535.63959 244.428571,2536.42857 L244.428,2543.571 L251.571429,2543.57143 C252.360407,2543.57143 253,2544.21102 253,2545 C253,2545.78898 252.360407,2546.42857 251.571429,2546.42857 L244.428,2546.428 L244.428571,2553.57143 C244.428571,2554.36041 243.788978,2555 243,2555 C242.211022,2555 241.571429,2554.36041 241.571429,2553.57143 L241.571,2546.428 L234.428571,2546.42857 C233.639593,2546.42857 233,2545.78898 233,2545 C233,2544.21102 233.639593,2543.57143 234.428571,2543.57143 L241.571,2543.571 L241.571429,2536.42857 C241.571429,2535.63959 242.211022,2535 243,2535 Z" id="path-1"></path>
+    </defs>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Guidle---Light" transform="translate(-233.000000, -2535.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon-plus" fill="#FF8E53" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+{
+  "name": "yscores",
+  "version": "1.0.0",
+  "description": "yscores custom theme skeleton",
+  "main": "gulpfile.babel.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp --env=development && gulp watch",
+    "prod": "gulp --env=production",
+    "watch": "gulp --env=production && gulp watch",
+    "build": "gulp --env=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.0",
+    "@babel/register": "^7.4.0",
+    "D": "^1.0.0",
+    "autoprefixer": "^9.5.0",
+    "chalk": "^2.4.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
+}

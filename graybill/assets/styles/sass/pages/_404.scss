@@ -1,0 +1,98 @@
+#four-hero {
+    height: 780px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 190px;
+
+    .body {
+        position: relative;
+        height: 780px;
+        width: 100%;
+
+        .card {
+            position: absolute;
+            bottom: -90px;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            max-width: 402px;	
+            background-color: #FFFFFF;	
+            box-shadow: 0 15px 25px -5px rgba(43,44,49,0.3);
+            padding: 50px 60px;
+
+            h1 {
+                color: #E25A13;	
+                font-family: garamond-premier-pro-display, serif;
+                font-weight: 500;
+                font-style: normal;		
+                font-size: 120px;	
+                line-height: 144px;
+                margin: 0;
+            }
+            .dough {
+                color: #434449;	
+                font-family: garamond-premier-pro-display, serif;
+                font-weight: 500;
+                font-style: normal;		
+                font-size: 70px;	
+                line-height: 65px;
+                margin: 0;
+            }
+            p {
+                color: #2B2C31;	
+                font-family: poynter-gothic-text, sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                font-size: 18px;	
+                font-weight: 300;	
+                line-height: 27px;
+                margin-top: 45px;
+                margin-bottom: 40px;
+            }
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    display: block;
+
+                    a {
+                        color: #139DE2;	
+                        font-family: poynter-gothic-text, sans-serif;
+                        font-weight: 500;
+                        font-style: normal;
+                        font-size: 18px;	
+                        line-height: 30px;
+                        text-decoration: none;
+                        position: relative;
+
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            margin: 0 auto;
+                            bottom: -1px;
+                            height: 1px;
+                            background-color: #139DE2;
+                            width: 100%;
+                            transition: .4s;
+                        }
+
+                        &:hover {
+                            color: #139DE2;
+
+                            &:after {
+                                width: 50%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

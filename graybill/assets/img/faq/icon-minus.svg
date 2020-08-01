@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="2px" viewBox="0 0 14 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>75E65CAF-746A-476A-9AB4-E40D3CD3A7CF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M567,2546 C566.447715,2546 566,2545.55228 566,2545 C566,2544.44772 566.447715,2544 567,2544 L579,2544 C579.552285,2544 580,2544.44772 580,2545 C580,2545.55228 579.552285,2546 579,2546 L567,2546 Z" id="path-1"></path>
+    </defs>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Guidle---Light" transform="translate(-566.000000, -2544.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon-minus" fill="#888888" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

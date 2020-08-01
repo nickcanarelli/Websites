@@ -1,0 +1,105 @@
+#hero {
+    padding: 40px 0px;
+
+    .container {
+        .row {
+            justify-content: center;
+            align-items: center;
+
+
+            .text {
+                width: 100%;
+                max-width: 530px;
+                text-align: center;
+
+                h1 {
+                    font-family: 'Rubik Mono One', sans-serif;
+                    width: 100%;
+                    font-size: 30px;
+                    letter-spacing: -2px;
+                    line-height: 35px;
+                    color: #282828;
+                    font-weight: 400;
+                    margin: 0;
+                }
+                p {
+                    max-width: 415px;
+                    font-size: 20px;
+                    color: #545454;
+                    font-family: "Rubik";
+                    font-weight: 400;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            .video {
+                height: 300px;
+                max-width: 800px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+#preview {
+    position: relative;
+    margin-top: 40px;
+
+    .container {
+        .row {
+            .iphone {
+                margin: 0 auto;
+                background: url('../img/iphone/iphone.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 700px;
+                width: 350px;
+                left: calc(50% - 175px);
+                position: absolute;
+                z-index: 1;
+                
+            }
+            .pt-slider {
+                height: 431px;
+                width: 266px;
+                margin: 0 auto;
+                margin-top: 30px;
+
+                .slick-slide img {
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+#three-col {
+    padding: 150px 0px 0px 0px;
+
+    .container {
+        .row {
+            .col-4 {
+                text-align: center;
+
+                .icon {
+                    height: 95px;
+                }
+                h2 {
+                    font-size: 20px;
+                    color: #282828;
+                    font-family: "Rubik Mono One";
+                    font-weight: 400;
+                    margin: 30px 0px;
+                }
+                p {
+                    max-width: 350px;
+                    margin: 0 auto;
+                    font-size: 25px;
+                    color: #282828;
+                    font-family: "Rubik";
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

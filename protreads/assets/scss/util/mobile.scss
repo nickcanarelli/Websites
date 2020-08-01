@@ -1,0 +1,228 @@
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    #preview {
+        .container {
+            .row {
+                .iphone {
+                    height: 700px;
+                    width: 540px;
+                    left: calc(50% - 270px);
+                    background-size: cover;
+                }
+                .pt-slider {
+                    height: 656px;
+                    width: 410px;
+                    margin: 0 auto;
+                    margin-top: 44px;
+
+                    .slick-slide img {
+                        height: 656px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    header {
+        .container {
+            .row {
+                .brand {
+                    .logo {
+                        width: 120px;
+                    }
+                }
+                .menu {
+                    flex-direction: row;
+                    align-items: center;
+                    
+                    .social-list {
+                        margin-top: 0px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    header {
+        .container {
+            .row {
+                .menu {
+                    .pt-inverted {
+                        color: #444444;
+                        font-family: 'Rubik';
+                        font-weight: 700;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    #contact-body {
+        .container {
+            .row {
+                min-height: 430px;
+                
+                .text {
+                    width: 50%;
+    
+                    h1 {
+                        font-family: 'Rubik Mono One', sans-serif;
+                        font-size: 30px;
+                        letter-spacing: -2px;
+                        line-height: 35px;
+                        color: #282828;
+                        font-weight: 400;
+                    }
+                    p {
+                        font-size: 20px;
+                        color: #545454;
+                        font-family: 'Rubik', sans-serif;
+                        font-weight: 400;
+                    }
+                }
+                .form {
+                    width: 40%;
+    
+                    .form-content {
+                        padding-left: 30px;
+    
+                        form {
+                            width: 100%;
+                            display: block;
+                            margin-top: 0px;
+    
+                            input {
+                                width: 100%;
+                                display: block;
+                                margin-bottom: 30px;
+                                padding: 10px 0px;
+                                font-size: 20px;
+                                color: #545454;
+                                font-family: 'Rubik', sans-serif;
+                                font-weight: 400;
+                                text-align: center;
+                                border: none;
+                                border-bottom: 1px solid black;
+                                outline: none;
+                            }
+                            button {
+                                display: block;
+                                width: 100%;
+                                padding: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    #hero {
+        .container {
+            .row {
+                justify-content: space-between;
+
+                .text {
+                    text-align: left;
+
+                    h1 {
+                        font-family: 'Rubik Mono One', sans-serif;
+                        width: 450px;
+                        font-size: 30px;
+                        letter-spacing: -2px;
+                        line-height: 35px;
+                        color: #282828;
+                        font-weight: 400;
+                        margin: 0;
+                    }
+                    p {
+                        max-width: 415px;
+                        font-size: 20px;
+                        color: #545454;
+                        font-family: "Rubik";
+                        font-weight: 400;
+                        margin-left: 0;
+                    }
+                }
+                .video {
+                    height: 414px;
+                }
+            }
+        }
+    }
+
+    #contact-body {
+        .container {
+            .row {
+                .form {
+                    margin-right: 100px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1330px) {
+    .container {
+        max-width: 1330px;
+    }
+}
+
+
+@media (max-width: 768px) {    
+
+    #three-col {
+        padding: 60px 0px;
+
+        .container {
+            .row {
+                .col-4 {
+                    -ms-flex: 0 0 100%;
+                    flex: 0 0 100%;
+                    max-width: 100%;
+
+                    margin-bottom: 60px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    footer  {
+        .container {
+            .row {
+                ul {
+                    li {
+                        text-align: center;
+                        display: block;
+                        margin: 0;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,48 @@
+// Open Sans (Regular, Semi-bold, Bold)
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+    // font-family: 'Open Sans', sans-serif;
+
+// Lato (Regular)
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    // font-family: 'Lato', sans-serif;
+
+// Montserrat (Medium)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    // font-family: 'Montserrat', sans-serif;
+
+
+// HK Grotesk (Regular, Medium, Semi-bold, Bold)
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('../scss/fonts/HKGrotesk/HKGrotesk-Regular.woff2') format('woff2'),
+        url('./scss/fonts/HKGrotesk/HKGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('../scss/fonts/HKGrotesk/HKGrotesk-Medium.woff2') format('woff2'),
+        url('../scss/fonts/HKGrotesk/HKGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('../scss/fonts/HKGrotesk/HKGrotesk-SemiBold.woff2') format('woff2'),
+        url('../scss/fonts/HKGrotesk/HKGrotesk-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('../scss/fonts/HKGrotesk/HKGrotesk-Bold.woff2') format('woff2'),
+        url('../scss/fonts/HKGrotesk/HKGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
